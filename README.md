@@ -1,15 +1,20 @@
 # AWS Data Lake Project
 
 ## Overview
-This project sets up a secure AWS Data Lake with fine-grained access control.
+This project builds a fully functional AWS Data Lake using Amazon S3, IAM, and CloudTrail. It ensures data security, lifecycle management, and access control with IAM policies and logging.
 
 ## Features
-- S3 data lake with lifecycle policies
-- IAM policies for security
-- AWS CloudTrail logging
+- Amazon S3 as the Data Lake (secure storage)
+- IAM Role-Based Access Control (fine-grained access)
+- S3 Lifecycle Policies (optimize storage costs)
+- AWS CloudTrail Logging (track all API actions)
+- Data Encryption with AWS KMS
 
 ## Architecture
 ![AWS Data Lake Diagram](architecture-diagram.png)
+🔹 S3 Buckets store raw, processed, and archival data
+🔹 IAM Roles & Policies ensure secure access
+🔹 CloudTrail logs all bucket actions for security
 
 ## Setup Instructions
 1. Create an S3 bucket.
