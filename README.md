@@ -22,5 +22,5 @@ This project builds a fully functional AWS Data Lake using Amazon S3, IAM, and C
 3. Enable lifecycle rules.
 4. Configure CloudTrail.
 
-## Contact
-- [LinkedIn](www.linkedin.com/in/lihle-dotyeni-28297126b)
+--- 
+- LinkedIn: [Lihle Dotyeni](https://www.linkedin.com/in/lihle-dotyeni-28297126b) 
