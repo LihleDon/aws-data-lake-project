@@ -21,4 +21,4 @@ Build a production-ready AWS Data Lake to demonstrate proficiency in AWS service
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/aws-data-lake-project.git
+   git clone https://github.com/Lihledon/aws-data-lake-project.git
