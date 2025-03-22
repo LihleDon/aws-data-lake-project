@@ -1,26 +1,24 @@
 # AWS Data Lake Project
+A secure, scalable AWS Data Lake built with S3, IAM, and CloudTrail for data storage, access control, and auditing.
 
-## Overview
-This project builds a fully functional AWS Data Lake using Amazon S3, IAM, and CloudTrail. It ensures data security, lifecycle management, and access control with IAM policies and logging.
+## Project Goal
+Build a production-ready AWS Data Lake to demonstrate proficiency in AWS services, data engineering, and infrastructure-as-code for enterprise environments.
 
 ## Features
-- Amazon S3 as the Data Lake (secure storage)
-- IAM Role-Based Access Control (fine-grained access)
-- S3 Lifecycle Policies (optimize storage costs)
-- AWS CloudTrail Logging (track all API actions)
-- Data Encryption with AWS KMS
+- **S3 Data Lake**: Stores structured and unstructured data with server-side encryption.
+- **IAM Policies**: Fine-grained access control for secure data governance.
+- **Lifecycle Rules**: Automates data tiering (e.g., to Glacier) and expiration.
+- **CloudTrail Logging**: Monitors and audits API activity with secure log storage.
 
 ## Architecture
-![AWS Data Lake Diagram](architecture-diagram.png)
-🔹 S3 Buckets store raw, processed, and archival data
-🔹 IAM Roles & Policies ensure secure access
-🔹 CloudTrail logs all bucket actions for security
+![AWS Data Lake Architecture](architecture-diagram.png)
+
+## Prerequisites
+- AWS Account with administrative access
+- PowerShell 5.1+ (for `setup-data-lake.ps1`)
+- AWS CLI configured with credentials
 
 ## Setup Instructions
-1. Create an S3 bucket.
-2. Apply IAM policies.
-3. Enable lifecycle rules.
-4. Configure CloudTrail.
-
---- 
-- LinkedIn: [Lihle Dotyeni](https://www.linkedin.com/in/lihle-dotyeni-28297126b) 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/aws-data-lake-project.git
